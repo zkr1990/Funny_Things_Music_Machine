@@ -1,0 +1,69 @@
+<template name="playground">
+<div class="container">
+<br>
+<h1>This is the Music Machine. Just move the slider bar to change the speed and volume of each track. You can turn on and off DAC here:</h1>
+
+<br><br>
+<!-- Remember - if you want to control functions globaly, don't declare them as var. Just name them. -->
+
+<button class="startButton">DAC</button>
+<button class="stopButton">DAC-OFF</button>
+<br><br>
+
+<br> 1	drums	
+<br>Current Speed = {{sliderVal11}}
+<br><div id="slider11"></div>
+<br>Current volume = {{sliderVal12}}
+<br><div id="slider12"></div>
+
+<br> 2 bassline		
+<br>Current Speed = {{sliderVal21}}
+<br><div id="slider21"></div>
+<br>Current volume = {{sliderVal22}}
+<br><div id="slider22"></div>
+ 
+<br> 3 arp		
+<br>Current Speed = {{sliderVal31}}
+<br><div id="slider31"></div>
+<br>Current volume = {{sliderVal32}}
+<br><div id="slider32"></div>
+ 
+<br> 4 bassdrum		
+<br>Current Speed = {{sliderVal41}}
+<br><div id="slider41"></div>
+<br>Current volume = {{sliderVal42}}
+<br><div id="slider42"></div>
+ 
+<br> 5 cymbal		
+<br>Current Speed = {{sliderVal51}}
+<br><div id="slider51"></div>
+<br>Current volume = {{sliderVal52}}
+<br><div id="slider52"></div>
+ 
+<br> 6 hihat	
+<br>Current Speed = {{sliderVal61}}
+<br><div id="slider61"></div>
+<br>Current volume = {{sliderVal62}}
+<br><div id="slider62"></div>
+ 
+<br> 7 snaredrum	
+<br>Current Speed = {{sliderVal71}}
+<br><div id="slider71"></div>
+<br>Current volume = {{sliderVal72}}
+<br><div id="slider72"></div>
+ 
+<br> 8 shake		
+<br>Current Speed = {{sliderVal81}}
+<br><div id="slider81"></div>
+<br>Current volume = {{sliderVal82}}
+<br><div id="slider82"></div>
+
+ <br>
+
+ <h2> {{startdac}} {{drums}} {{bass}} {{arp}} {{bassdrum1}}
+		{{cymbal1}} {{hihat2}} {{snaredrum1}} {{shake}}
+ </h2>
+
+
+</div>
+</template>
